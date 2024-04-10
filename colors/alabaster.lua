@@ -12,10 +12,10 @@ if vim.o.background == "dark" then
 	local bg = "#002b36"
 	local fg = "#839496"
 	local punct_fg = "#657b83"
-	local def_fg = "#268bd2"
-	local const_fg = "#d33682"
+	local def_fg = "#d33682"
+	local const_fg = "#268bd2"
 	local active = "#b58900"
-	local string_fg = "#268bd2"
+	local string_fg = "#859900"
 	local darker_fg = "#657b83"
 	local diffadd = "#859900"
 	local diffdelete = "#dc322f"
@@ -267,7 +267,7 @@ if vim.o.background == "dark" then
 		GitSignsChange = { fg = diffchange },
 		GitSignsDelete = { fg = diffdelete },
 		--- Telescope
-		TelescopeBorder = { fg = ansi.magenta },
+		TelescopeBorder = { fg = ansi.blue },
 		TelescopeMatching = { fg = ansi.orange },
 		TelescopeMultiSelection = { fg = ansi.magenta },
 		TelescopePromptPrefix = { fg = ansi.blue },
@@ -294,7 +294,7 @@ if vim.o.background == "dark" then
 		AlabasterBrightYellow = { fg = ansi.brightyellow },
 		AlabasterCyan = { fg = ansi.cyan },
 		AlabasterGreen = { fg = ansi.green },
-		AlabasterDarkGreen = { fg = green},
+		AlabasterDarkGreen = { fg = green },
 		AlabasterMagenta = { fg = ansi.magenta },
 		AlabasterRed = { fg = ansi.red },
 		AlabasterWhite = { fg = ansi.white },
@@ -312,17 +312,17 @@ if vim.o.background == "dark" then
 		rainbowcol6 = { fg = ansi.red },
 		rainbowcol7 = { fg = ansi.cyan },
 		--- Noice
-		NoiceCmdlineIcon = { link = "AlabasterMagenta" },
-		NoiceCmdlinePopupBorder = { link = "AlabasterMagenta" },
-		NoiceConfirmBorder = { link = "AlabasterMagenta" },
-		NoiceCmdlinePopupBorderCmdline = { link = "AlabasterMagenta" },
-		NoiceCmdlineIconCmdline = { link = "AlabasterMagenta" },
-		NoiceCmdlinePopupBorderFilter = { link = "AlabasterMagenta" },
-		NoiceCmdlineIconFilter = { link = "AlabasterMagenta" },
-		NoiceCmdlinePopupBorderLua = { link = "AlabasterMagenta" },
-		NoiceCmdlineIconLua = { link = "AlabasterMagenta" },
-		NoiceCmdlinePopupBorderSearch = { link = "AlabasterBlue" },
-		NoiceCmdlineIconSearch = { link = "AlabasterBlue" },
+		NoiceCmdlineIcon = { link = "AlabasterBlue" },
+		NoiceCmdlinePopupBorder = { link = "AlabasterBlue" },
+		NoiceConfirmBorder = { link = "AlabasterBlue" },
+		NoiceCmdlinePopupBorderCmdline = { link = "AlabasterBlue" },
+		NoiceCmdlineIconCmdline = { link = "AlabasterBlue" },
+		NoiceCmdlinePopupBorderFilter = { link = "AlabasterBlue" },
+		NoiceCmdlineIconFilter = { link = "AlabasterBlue" },
+		NoiceCmdlinePopupBorderLua = { link = "AlabasterBlue" },
+		NoiceCmdlineIconLua = { link = "AlabasterBlue" },
+		NoiceCmdlinePopupBorderSearch = { link = "AlabasterGreen" },
+		NoiceCmdlineIconSearch = { link = "AlabasterGreen" },
 		-- Languages
 		--- asm
 		asmDirective = { fg = dim_comment },
