@@ -12,7 +12,7 @@ if vim.o.background == "dark" then
 	local bg = "#002b36"
 	local fg = "#839496"
 	local punct_fg = "#657b83"
-	local def_fg = "#d33682"
+	local def_fg = "#dc322f"
 	local const_fg = "#268bd2"
 	local active = "#b58900"
 	local string_fg = "#859900"
@@ -21,7 +21,7 @@ if vim.o.background == "dark" then
 	local diffdelete = "#dc322f"
 	local diffchange = "#b58900"
 	local statusline = "#93a1a1"
-	local comment = "#b58900"
+	local comment = "#eee8d5"
 	local dim_comment = "#696969"
 	local mistake = {
 		fg = "#dc322f",
@@ -34,7 +34,7 @@ if vim.o.background == "dark" then
 	local ansi = {
 		black = "#002b36",
 		blue = "#268bd2",
-		brightyellow = "#b58900",
+		brightyellow = "#cb4b16",
 		cyan = "#2aa198",
 		green = "#859900",
 		magenta = "#d33682",
@@ -299,18 +299,18 @@ if vim.o.background == "dark" then
 		AlabasterRed = { fg = ansi.red },
 		AlabasterWhite = { fg = ansi.white },
 		AlabasterYellow = { fg = ansi.yellow },
+    --- Rainbow
+		RainberskiBlue = { fg = "#4695f7" },
+		RainberskiViolet = { fg = "#af88eb" },
+		RainberskiCyan = { fg = "#41c7b9" },
+		RainberskiGreen = { fg = "#75b938" },
+		RainberskiMagenta = { fg = "#f275be" },
+		RainberskiRed = { fg = "#fa5750" },
+		RainberskiYellow = { fg = "#dbb32d" },
 		--- checkhealth
 		healthSuccess = { fg = ansi.green, bg = bg },
 		--- cmp
 		CmpItemMenuDefault = { fg = ansi.magenta },
-		--- nvim-ts-rainbow
-		rainbowcol1 = { fg = ansi.yellow },
-		rainbowcol2 = { fg = ansi.magenta },
-		rainbowcol3 = { fg = ansi.blue },
-		rainbowcol4 = { fg = ansi.green },
-		rainbowcol5 = { fg = ansi.brightyellow },
-		rainbowcol6 = { fg = ansi.red },
-		rainbowcol7 = { fg = ansi.cyan },
 		--- Noice
 		NoiceCmdlineIcon = { link = "AlabasterBlue" },
 		NoiceCmdlinePopupBorder = { link = "AlabasterBlue" },
